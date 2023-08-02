@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="assets/js/helpers.js" defer></script>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+ <dialog open=>
+    <form action="dialog">
+        <input required type="text" placeholder="Ögrenci Adı">
+        <input required type="text" placeholder="Ögrenci Soyadı">
+        <input required type="text" placeholder="Ögrenci Dogum Tarihi">
+        <select  required name="">
+            <option value="">Şeciniz</option>
+            <option >Erkek</option>
+            <option >Kadın</option>
+        </select>
+        <button type="submit">Ekle</button>
+        <button>Vazgeç</button>
+    </form>
+ </dialog>
+    <h4>Ögenciler <button id="addStudentBtn">Ekle</button></h4>
+    <div class="options" id="genderSelection">
+        <input type="radio" name="Gender" id="" value="Tümü" checked>Tümü
+        <input type="radio" name="Gender" id="" value="Erkek"><span>Erkek</span>
+        <input type="radio" name="Gender" id="" value="Kadın"><span>Kadın</span>
+    </div>
+    <div class="clasContainer">
+        <div class="classroom">
+            <div class="student">
+                <img src="https://picsum.photos/id/237/80/80" alt="">
+                <div class="studentInfo">
+                    <h5>Berkay Çongal</h5>
+                    <h6>Erkek</h6>
+                    <h6>26.09.1997</h6>
+                </div>
+            </div>
+            <div class="student">
+                <img src="https://picsum.photos/id/237/80/80" alt="">
+                <div class="studentInfo">
+                    <h5>Berkay Çongal</h5>
+                    <h6>Erkek</h6>
+                    <h6>26.09.1997</h6>
+                </div>
+            </div>
+        </div>
+        <div class="classroom"></div>
+        <div class="classroom"></div>
+        <div class="classroom"></div>
+    </div>
+    
+
+    
+    <!-- popup
+        lightbox
+        modal -->
+    
+</body>
+</html>
